@@ -1,0 +1,17 @@
+.btn{
+    background-color: tomato;
+    color: white;
+    border-radius: 12px;
+    width: 152px;
+    height: 55px;
+    border: 1px solid lightgray;
+}
+.blue-btn{
+    background-color: dodgerblue;
+}
+.green-btn{
+    background-color: #FFB371;
+}
+.green-btn2{
+    background-color: rgb(60, 179, 113);
+}
