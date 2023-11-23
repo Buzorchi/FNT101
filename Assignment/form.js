@@ -14,10 +14,10 @@ const fullNameEl = document.getElementById("fullName")
             const fullNameValue = fullNameEl.value
         
             if (emailValue && passwordValue && countryValue && fullNameValue) {
-                console.log("Email:", emailValue);
-                console.log("Password:", passwordValue);
-                console.log("Country:", countryValue);
                 console.log ("Full Name:", fullNameValue)
+                console.log("Email:", emailValue);
+                console.log("Country:", countryValue);
+                console.log("Password:", passwordValue);
             } else {
                 alert("Please fill  all fields");
             }
