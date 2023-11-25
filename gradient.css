@@ -1,0 +1,76 @@
+.box{
+    width: 365px;
+    height: 250px;
+    border: 1px solid lightgray;
+    border: 12px;
+}
+.gradient{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.gradient-element-linear{
+    background-image: linear-gradient(to right, #3498db, #23cc71);
+}
+.gradient-element-radial{
+    background-image: radial-gradient(circle, red, #feb47b);
+}
+.gradient-element-conic{
+    background-image: conic-gradient(red 180deg,yellow,green,blue,black);
+}
+.btn{
+    background-image: linear-gradient(to bottom right, #4545fe 70%, #121212);
+    color: white;
+    border-radius: 12px;
+    width: 138px;
+    height: 30px;
+    border: 1px solid lightgray;
+    transition: background-color (0.4s ease-in-out);
+}
+
+.header-wrap{
+    padding: 10px 15px;
+    background-color: #191919;
+    border-radius: 14px;
+    border: 1px solid #121212;
+}
+.header-text{
+    background-image: linear-gradient(to bottom right, pink, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn:hover{
+    background: transparent;
+    color: #191919;
+    border: 1px solid #191919;
+}
+.spinner{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.notification{
+    animation: pulse 1s infinite;
+}
+@keyframes pulse {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
